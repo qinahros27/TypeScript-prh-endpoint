@@ -1,0 +1,26 @@
+{
+  "name": "fs15_6-typescript-prh-endpoint_upload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon src/index.ts",
+    "build": "tsc",
+    "start": "node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qinahros27/fs15_6-TypeScript-prh-endpoint_upload.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qinahros27/fs15_6-TypeScript-prh-endpoint_upload/issues"
+  },
+  "homepage": "https://github.com/qinahros27/fs15_6-TypeScript-prh-endpoint_upload#readme",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "typescript": "^5.2.2"
+  }
+}
